@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                git branch: 'master', url: 'https://github.com/ankithtrainer/jenkins-my-webapp'
+                git branch: 'main', url: 'https://github.com/animesh33-ctrl/tomcat_test'
             }
         }
 
