@@ -50,7 +50,7 @@ pipeline {
 
         stage('Start Tomcat Server') {
             steps {
-                bat '""C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\bin\\startup.bat""'
+                bat '"C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\bin\\startup.bat"'
             }
         }
 
